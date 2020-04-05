@@ -17,7 +17,17 @@ const aCar = {
         "Pat Smith - 1 Main Street",
         "Sheila Dwyer - 2 High Street"
       ],
+    
+      features : ['Parking assist', 'Alarm', 'Tow-bar'],
 };
+
+for (let i = 0 ; i < aCar.features.length ; i += 1) {
+    console.log(aCar.features[i]) ;
+}
+
+for (let p in aCar.type)  {
+    console.log(p.toUpperCase() + ' = ' + aCar.type[p] ) ;
+}
 
 
 console.log('First owner : ' + aCar.previous_owners[0] )
