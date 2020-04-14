@@ -1,0 +1,12 @@
+h1, h2{
+    color: blue;
+    background-color: burlywood;
+    border: crimson;
+}
+p{
+    color: red;
+    background-color: rgb(135, 222, 154);
+    border: rgb(20, 19, 20);
+    
+}
+
